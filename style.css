@@ -1,0 +1,41 @@
+button{
+    width: 200px;
+    height: 200px;
+    font-size:70px;   
+    background-color: blueviolet; 
+}
+.container{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    width: 600px;
+    margin: auto;
+    
+}
+h1, h2{
+	text-align:  center;
+    color: white;
+
+}
+
+h1{
+	font-size:  3em;
+    color: white;
+}
+
+h2{
+	font-size:  2.5em;
+    color: white;
+
+}
+#textoVictoria {
+            display: none; /* El texto de victoria estará oculto inicialmente */
+        }
+#textoDerrota,
+#textoEmpate {
+    display: none;
+}
+body{
+    background-color: black;
+}
+
+    
